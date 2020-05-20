@@ -150,8 +150,42 @@ export default [
             pets:true,
             breakfast: false,
             featured:false,
+            
             description:
-               "Street art edison bulb gluten-free, tofu try-hard lumbersexual brookln tattooed pickled chambray.Actually humblebrag next level,deep vart party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile chiche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold"
+               "Street art edison bulb gluten-free, tofu try-hard lumbersexual brookln tattooed pickled chambray.Actually humblebrag next level,deep vart party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile chiche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold",
+        
+    
+    images: [
+      {
+        fields: {
+          file: {
+            url: img3
+          }
         }
-    }
-]
+      },
+      {
+        fields: {
+          file: {
+            url: room2
+          }
+        }
+      },
+      {
+        fields: {
+          file: {
+            url: room3
+          }
+        }
+      },
+      {
+        fields: {
+          file: {
+            url: room4
+          }
+        }
+      }
+    ]
+}
+}
+
+];
